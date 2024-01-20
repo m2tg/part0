@@ -12,7 +12,7 @@ sequenceDiagram
 
     browser->>server: "GET https://studies.cs.helsinki.fi/exampleapp/notes"
     activate server
-    server-->>browser "notes.html (HTML Document)"
+    server-->>browser: "notes.html (HTML Document)"
     deactivate server
 
     browser->>server: "GET https://studies.cs.helsinki.fi/exampleapp/main.css"
