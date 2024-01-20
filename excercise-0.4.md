@@ -1,3 +1,6 @@
+Sequence Diagram for adding a note:
+
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -26,3 +29,4 @@ sequenceDiagram
     activate server
     server-->>browser: [ {"content": "SPA or non-SPA, that is the question","date": "2024-01-19T20:25:46.954Z"    },...]
     deactivate server
+```
